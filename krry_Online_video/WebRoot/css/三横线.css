@@ -1,0 +1,34 @@
+.u-icon-detail
+{
+    width: 12px;
+    height: 10px;
+}
+
+.u-icon-detail i
+{
+    display: block;
+    position: relative;
+    width: 18px;
+    height: 2px;
+    background-color: #ffa124;
+}
+
+.u-icon-detail i:before
+{
+    position: absolute;
+    top: 5px;
+    width: 18px;
+    height: 2px;
+    background-color: #ffa124;
+    content: '';
+}
+
+.u-icon-detail i:after
+{
+    position: absolute;
+    top: 10px;
+    width: 18px;
+    height: 2px;
+    background-color: #ffa124;
+    content: '';
+}
